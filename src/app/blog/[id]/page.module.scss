@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  gap: 50px;
+
+  .content {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .postImgContainer {
+      width: 100%;
+      height: 300px;
+      position: relative;
+      margin-bottom: 10px;
+
+      .postImg {
+        object-fit: cover;
+      }
+    }
+
+    .user {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+
+      .profileImgContainer {
+        position: relative;
+        width: 50px;
+        height: 50px;
+
+        .profileImg {
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+
+      span {
+        font-weight: bold;
+      }
+
+      .edit {
+        display: flex;
+        gap: 5px;
+
+        .modifyImgContainer {
+          position: relative;
+          width: 20px;
+          height: 20px;
+          cursor: pointer;
+
+          .modifyImg {
+            object-fit: cover;
+          }
+        }
+      }
+    }
+    h1 {
+      font-size: 42px;
+      color: #888;
+    }
+
+    p {
+      text-align: justify;
+      line-height: 30px;
+    }
+  }
+
+}

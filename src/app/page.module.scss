@@ -1,0 +1,14 @@
+.container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+  .title {
+    font-size: 72px;
+    align-items: center;
+    background: linear-gradient(to bottom, #b57047, #bbb);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
